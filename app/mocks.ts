@@ -1,4 +1,4 @@
-import { CarPart } from './car-part.ts';
+import { CarPart } from './car-part';
 
 export const CARPARTS: CarPart[] = [{
 	"id" : 1,

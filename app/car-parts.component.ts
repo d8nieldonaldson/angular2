@@ -17,12 +17,14 @@ export class CarPartsComponent {
 	{
 		"id" : 2,
 		"name" : "Reinforced Shocks",
-		"inStock" : 4,
+		"description" : "froggy",
+    "inStock" : 4,
 		"price" : 29.99
 	},
 	{
 		"id" : 3,
 		"name" : "Turbocharger",
+    "description" : "blows",
 		"inStock" : 0,
 		"price" : 199.99
 	}];
@@ -31,6 +33,6 @@ export class CarPartsComponent {
 		for(let carPart of this.carParts){
 			sum += carPart.inStock;
 		}
-		return sum; 
-	}					
+		return sum;
+	}
 }

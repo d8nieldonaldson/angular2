@@ -5,11 +5,10 @@ import {CarPartsComponent} from './car-parts.component';
 
 @Component({
 	selector: 'my-app',
-	template: `<h1>{{title}}</h1>
-	<car-parts></car-parts>`,
+	template: `<h1>{{title}}</h1><car-parts></car-parts>`,
 	directives: [CarPartsComponent]
 })
 
-export class AppComponent{ 
-	title = 'Ultra Racing';				
+export class AppComponent{
+	title = 'Ultra Racing';
 }

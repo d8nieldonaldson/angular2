@@ -10,12 +10,14 @@ export const CARPARTS: CarPart[] = [{
 {
 	"id" : 2,
 	"name" : "Reinforced Shocks",
+  "description" : "froggy af",
 	"inStock" : 4,
 	"price" : 29.99
 },
 {
 	"id" : 3,
 	"name" : "Turbocharger",
+  "description" : "blows hard",
 	"inStock" : 0,
 	"price" : 199.99
 }];
